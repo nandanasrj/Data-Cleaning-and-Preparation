@@ -1,4 +1,4 @@
- Data Cleaning and Preparation 
+ Data Cleaning and Preparation : 
 In this project, I cleaned and prepared the Titanic dataset for machine learning using **Python, Pandas, NumPy, Matplotlib, and Seaborn** in **Google Colab**. I started by importing the dataset and exploring its structure — checking data types, missing values, and overall statistics to understand data quality and distribution.
 Next, I handled missing data by filling the `Age` column with the median and the `Embarked` column with the most frequent value. I converted categorical features such as `Sex` and `Embarked` into numerical form using one-hot encoding, ensuring the dataset was machine-learning compatible.
 After preprocessing, I standardized numerical features like `Age` and `Fare` to normalize the scale of the data and visualized outliers using boxplots. Extreme values were removed using the IQR method to improve data consistency. By the end, the dataset was fully cleaned, encoded, and normalized — ready for building predictive models.
